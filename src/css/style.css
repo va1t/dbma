@@ -1,40 +1,50 @@
 body {
   padding-top: 90px;
-  width: 80%;
   margin: 0 auto;
-  font-family: montserratlight, montserratregular, cabin, oswald, arial; }
+  font-family: montserratlight, montserratregular, cabin, oswald, arial;
+  background-color: #fff; }
 
 nav {
   background-color: #fff;
-  opacity: .9;
-  color: #000; }
+  box-shadow: 0 0 20px #082b44;
+  opacity: .9; }
   nav a {
     color: #000;
     text-decoration: none; }
+  nav .btn-danger {
+    background-color: #993300 !important; }
 
 #hero-section {
-  height: 600px; }
+  height: 600px;
+  background-color: #082b44;
+  color: white; }
 
 #about-section {
-  height: 600px; }
+  width: 80%;
+  margin: 0 auto;
+  height: 400px; }
 
 #partner-section {
-  height: 600px; }
+  height: 600px;
+  background-color: #082b44; }
 
-.section-header {
-  display: block;
-  index: -1;
-  margin-top: -50px;
-  background-color: white;
-  margin: 10px;
-  border: 1px solid #000; }
+#direction-section {
+  width: 80%;
+  margin: 0 auto; }
+
+.page-footer {
+  background-color: #993300; }
+
+.logo {
+  background: url("../img/extend.png");
+  background-repeat: repeat-x; }
 
 .hr-text {
   line-height: 1em;
   position: relative;
   outline: 0;
   border: 0;
-  color: black;
+  color: #000;
   text-align: center;
   height: 2.7em;
   opacity: .5; }
@@ -56,6 +66,3 @@ nav {
     line-height: 1.5em;
     color: #000;
     background-color: #fff; }
-
-.carousel-item.active {
-  display: block; }
